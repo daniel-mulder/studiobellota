@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="generic">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>95e50711-15b3-4f74-945a-ddf0663ccb08</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>eb446d01-e04d-4911-8a7e-07eeb59a1af7</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="memories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c8bdda83-eedf-4045-be9d-cf1246e47e44</sv:value>
+    </sv:property>
+    <sv:node sv:name="memories">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>69e8527d-4afc-4260-8de1-8de929a99a9e</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Still my favorite</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/memories/memories[3]</sv:value>
+        <sv:value>generic/memories/memories[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T02:27:57.986+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:18:46.562+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>669bb4dc-3cb6-4d6d-b7ae-5c3bafe8d73d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>9a44905a-7dd2-43b8-adf1-45051b35efdb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Some memories. Made this more for myself maybe ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="image.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="5.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="6.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="7.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="8.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="9.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="10.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="11.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="12.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="13.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="14.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="15.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="16.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="17.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="image.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>89cb765e-a322-4da3-89a3-627a97207589</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5d36a323-a335-4a23-971e-8387d54760f7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>43901bc6-71d4-437d-8b3e-e96d492e9b1c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a2fdc386-09b0-4852-b468-5ad3075fb0ec</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>597955de-4516-4d0c-a4da-b3ff72cf1730</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="5.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>be812ab4-c291-4e5a-8819-159c005ace7c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="6.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5419c469-cee4-4a0f-a7e8-bc2dfaabe811</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="7.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef520a35-e465-4078-b865-415cf6a2876f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="8.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d47dbb14-3f10-41e0-a59f-a7fc695b6d11</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="9.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>f0f1c6bf-8d6f-46c2-b1f0-26222de7a0bd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="10.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6a2cdaaf-ee9e-415e-8f4c-238c1e59125a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="11.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>18de1b51-8fe7-4760-962c-c69985400736</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="12.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>34870aa7-4dd5-4b34-873d-12da124a77c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="13.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>378379ff-60fc-43a7-b986-bd72b12ef13d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="14.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>bd1869bf-8ad7-47f0-abe8-61dcb3032e3b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="15.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7f667f57-a97e-4e85-9d40-7f0577598f88</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="16.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7ccc39ac-43fa-4e4c-9121-b7ae7bc6a05f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="17.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>90332fa3-ba1c-4f44-b300-4a15f2542f03</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="memories">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d13c083c-244a-4e1f-b746-e76fa077862a</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Still my favorite</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/memories/memories[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T02:27:57.986+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:18:57.116+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>669bb4dc-3cb6-4d6d-b7ae-5c3bafe8d73d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>9a44905a-7dd2-43b8-adf1-45051b35efdb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Some memories. Made this more for myself maybe ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="image.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="5.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="6.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="7.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="8.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="9.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="10.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="11.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="12.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="13.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="14.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="15.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="16.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="17.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="image.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>89cb765e-a322-4da3-89a3-627a97207589</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5d36a323-a335-4a23-971e-8387d54760f7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>43901bc6-71d4-437d-8b3e-e96d492e9b1c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a2fdc386-09b0-4852-b468-5ad3075fb0ec</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>597955de-4516-4d0c-a4da-b3ff72cf1730</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="5.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>be812ab4-c291-4e5a-8819-159c005ace7c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="6.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5419c469-cee4-4a0f-a7e8-bc2dfaabe811</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="7.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef520a35-e465-4078-b865-415cf6a2876f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="8.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d47dbb14-3f10-41e0-a59f-a7fc695b6d11</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="9.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>f0f1c6bf-8d6f-46c2-b1f0-26222de7a0bd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="10.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6a2cdaaf-ee9e-415e-8f4c-238c1e59125a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="11.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>18de1b51-8fe7-4760-962c-c69985400736</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="12.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>34870aa7-4dd5-4b34-873d-12da124a77c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="13.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>378379ff-60fc-43a7-b986-bd72b12ef13d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="14.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>bd1869bf-8ad7-47f0-abe8-61dcb3032e3b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="15.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7f667f57-a97e-4e85-9d40-7f0577598f88</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="16.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7ccc39ac-43fa-4e4c-9121-b7ae7bc6a05f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="17.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>90332fa3-ba1c-4f44-b300-4a15f2542f03</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="memories">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8bed91af-cc44-4b4b-b3c9-a72aad2e3cc9</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Still my favorite</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/memories/memories[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T02:27:57.986+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:18:57.116+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:18:59.809+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>669bb4dc-3cb6-4d6d-b7ae-5c3bafe8d73d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>9a44905a-7dd2-43b8-adf1-45051b35efdb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Some memories. Made this more for myself maybe ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="image.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="5.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="6.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="7.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="8.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="9.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="10.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="11.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="12.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="13.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="14.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="15.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="16.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="17.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="image.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>89cb765e-a322-4da3-89a3-627a97207589</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5d36a323-a335-4a23-971e-8387d54760f7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>43901bc6-71d4-437d-8b3e-e96d492e9b1c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a2fdc386-09b0-4852-b468-5ad3075fb0ec</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>597955de-4516-4d0c-a4da-b3ff72cf1730</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="5.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>be812ab4-c291-4e5a-8819-159c005ace7c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="6.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>5419c469-cee4-4a0f-a7e8-bc2dfaabe811</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="7.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ef520a35-e465-4078-b865-415cf6a2876f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="8.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d47dbb14-3f10-41e0-a59f-a7fc695b6d11</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="9.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>f0f1c6bf-8d6f-46c2-b1f0-26222de7a0bd</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="10.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6a2cdaaf-ee9e-415e-8f4c-238c1e59125a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="11.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>18de1b51-8fe7-4760-962c-c69985400736</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="12.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>34870aa7-4dd5-4b34-873d-12da124a77c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="13.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>378379ff-60fc-43a7-b986-bd72b12ef13d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="14.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>bd1869bf-8ad7-47f0-abe8-61dcb3032e3b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="15.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7f667f57-a97e-4e85-9d40-7f0577598f88</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="16.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>7ccc39ac-43fa-4e4c-9121-b7ae7bc6a05f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="17.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>90332fa3-ba1c-4f44-b300-4a15f2542f03</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="15-months">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9a40cc39-104a-4373-92df-b2c4decf3231</sv:value>
+    </sv:property>
+    <sv:node sv:name="15-months">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ce911feb-c204-40a5-a9b7-bbb305050aff</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>For my love, Sine</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/15-months/15-months[3]</sv:value>
+        <sv:value>generic/15-months/15-months[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-04T07:42:21.339+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:22:27.248+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2ea6d348-a247-4932-a87f-96792e3840f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4c140640-b32c-48eb-8581-198e4ab32ac9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Baby, let me just start again by saying happy 15 months to us!! I love that you remember these things. In fact I&amp;apos;ve been working hard in order to get a special little something going for this day. And here it is. It is the beginning of the website :-) I wanted to make a special little page for our celebration haha.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;It&amp;apos;s amazing how much work goes into this though. Also because I wanted to have at least something to show today, I&amp;apos;ve been working crazy hard. That&amp;apos;s also why I skipped gym lately. Yesterday night for example, I took my computer up in your room and worked till 2. I think it&amp;apos;s also a way to distract myself a bit from not having you around... though the distraction is far from effective. Talk about distractions, apparently when I look at your pictures on my phone, I have this &amp;quot;in love&amp;quot; look on my face, Fabian told me over whatsapp, see the little image below ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="whatsapp-fabian.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Baby, have you noticed the font type? It&amp;apos;s Helvetica Neue. You once mentioned that you wanted it for the site, being a designer and all. I hope you like the first little setup I made. I will work a bit on the site in the coming days too. At least I have a lot of configuration things done now.&lt;/p&gt;
+
+&lt;p&gt;Sine I miss you... Going through old pictures, every now and then I see one that brings up memories. Take this one for example&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="fuck-yes.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just want you to know that for me it&amp;apos;s never going to be anything other than Fuck Yes!! I love you baby, I miss you... Ok, time to wrap this up because I think you&amp;apos;re gonne go to bed real soon.&lt;/p&gt;
+
+&lt;p&gt;Baby I adore you!! Happy 15 months!! And let&amp;apos;s go for way way more!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="whatsapp-fabian.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d2c4a2b3-4a3f-450f-b705-09163c49038d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="fuck-yes.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>35aa3876-6423-4349-89cd-ea17e42265d4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="15-months">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>73a43562-d17e-4e9f-ad9e-2117e3f5208a</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>For my love, Sine</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/15-months/15-months[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-04T07:42:21.339+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:19:02.563+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2ea6d348-a247-4932-a87f-96792e3840f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4c140640-b32c-48eb-8581-198e4ab32ac9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Baby, let me just start again by saying happy 15 months to us!! I love that you remember these things. In fact I&amp;apos;ve been working hard in order to get a special little something going for this day. And here it is. It is the beginning of the website :-) I wanted to make a special little page for our celebration haha.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;It&amp;apos;s amazing how much work goes into this though. Also because I wanted to have at least something to show today, I&amp;apos;ve been working crazy hard. That&amp;apos;s also why I skipped gym lately. Yesterday night for example, I took my computer up in your room and worked till 2. I think it&amp;apos;s also a way to distract myself a bit from not having you around... though the distraction is far from effective. Talk about distractions, apparently when I look at your pictures on my phone, I have this &amp;quot;in love&amp;quot; look on my face, Fabian told me over whatsapp, see the little image below ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="whatsapp-fabian.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Baby, have you noticed the font type? It&amp;apos;s Helvetica Neue. You once mentioned that you wanted it for the site, being a designer and all. I hope you like the first little setup I made. I will work a bit on the site in the coming days too. At least I have a lot of configuration things done now.&lt;/p&gt;
+
+&lt;p&gt;Sine I miss you... Going through old pictures, every now and then I see one that brings up memories. Take this one for example&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="fuck-yes.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just want you to know that for me it&amp;apos;s never going to be anything other than Fuck Yes!! I love you baby, I miss you... Ok, time to wrap this up because I think you&amp;apos;re gonne go to bed real soon.&lt;/p&gt;
+
+&lt;p&gt;Baby I adore you!! Happy 15 months!! And let&amp;apos;s go for way way more!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="whatsapp-fabian.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d2c4a2b3-4a3f-450f-b705-09163c49038d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="fuck-yes.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>35aa3876-6423-4349-89cd-ea17e42265d4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="15-months">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>073e3f66-1ad5-4a9d-b7dc-069f163473d6</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>For my love, Sine</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/15-months/15-months[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-04T07:42:21.339+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:19:02.563+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-08-07T00:19:05.325+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2ea6d348-a247-4932-a87f-96792e3840f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4c140640-b32c-48eb-8581-198e4ab32ac9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Baby, let me just start again by saying happy 15 months to us!! I love that you remember these things. In fact I&amp;apos;ve been working hard in order to get a special little something going for this day. And here it is. It is the beginning of the website :-) I wanted to make a special little page for our celebration haha.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;It&amp;apos;s amazing how much work goes into this though. Also because I wanted to have at least something to show today, I&amp;apos;ve been working crazy hard. That&amp;apos;s also why I skipped gym lately. Yesterday night for example, I took my computer up in your room and worked till 2. I think it&amp;apos;s also a way to distract myself a bit from not having you around... though the distraction is far from effective. Talk about distractions, apparently when I look at your pictures on my phone, I have this &amp;quot;in love&amp;quot; look on my face, Fabian told me over whatsapp, see the little image below ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="whatsapp-fabian.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Baby, have you noticed the font type? It&amp;apos;s Helvetica Neue. You once mentioned that you wanted it for the site, being a designer and all. I hope you like the first little setup I made. I will work a bit on the site in the coming days too. At least I have a lot of configuration things done now.&lt;/p&gt;
+
+&lt;p&gt;Sine I miss you... Going through old pictures, every now and then I see one that brings up memories. Take this one for example&lt;/p&gt;
+
+&lt;p&gt;&lt;img align="middle" src="fuck-yes.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I just want you to know that for me it&amp;apos;s never going to be anything other than Fuck Yes!! I love you baby, I miss you... Ok, time to wrap this up because I think you&amp;apos;re gonne go to bed real soon.&lt;/p&gt;
+
+&lt;p&gt;Baby I adore you!! Happy 15 months!! And let&amp;apos;s go for way way more!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="whatsapp-fabian.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d2c4a2b3-4a3f-450f-b705-09163c49038d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="fuck-yes.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>35aa3876-6423-4349-89cd-ea17e42265d4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="datca">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>75b64c5f-750b-434c-9d25-e67d67fa6e93</sv:value>
+    </sv:property>
+    <sv:node sv:name="datca">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2750812f-b9c4-41f9-ab9a-3306e8d02222</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/datca/datca[2]</sv:value>
+        <sv:value>generic/datca/datca[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:13:47.656+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:29:15.065+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>98a9b323-8997-4727-9477-240c8ea4e81e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>62f91875-ced6-446b-8263-553028d43744</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;img src="datca1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="datca1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>eb4cef64-3cfa-4726-acc9-2cafd3930c64</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>60e8c837-08e2-4e59-9af5-69a6bc4100f8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a45aec34-4ba5-492d-8122-6fee5439c10e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>013fb6f3-2deb-4c96-b1b2-07eda9f67760</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="datca">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1d97b5ce-5df3-47bc-b951-92d60d6f8151</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/datca/datca[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:13:47.656+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:29:18.420+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>98a9b323-8997-4727-9477-240c8ea4e81e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>62f91875-ced6-446b-8263-553028d43744</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;img src="datca1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="datca1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>eb4cef64-3cfa-4726-acc9-2cafd3930c64</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>60e8c837-08e2-4e59-9af5-69a6bc4100f8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a45aec34-4ba5-492d-8122-6fee5439c10e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>013fb6f3-2deb-4c96-b1b2-07eda9f67760</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="datca">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>711701c7-992f-4bfb-a9d9-9bfc885401bb</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/datca/datca[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:13:47.656+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:29:18.420+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>daniel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-08-05T10:50:30.836+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>98a9b323-8997-4727-9477-240c8ea4e81e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>62f91875-ced6-446b-8263-553028d43744</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;&lt;img src="datca1.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca2.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca3.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="datca4.jpg/{_document}/hippogallery:original" /&gt;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="datca1.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>eb4cef64-3cfa-4726-acc9-2cafd3930c64</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca2.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>60e8c837-08e2-4e59-9af5-69a6bc4100f8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca3.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a45aec34-4ba5-492d-8122-6fee5439c10e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="datca4.jpg">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>013fb6f3-2deb-4c96-b1b2-07eda9f67760</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2015-8-7">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f163136c-b9f8-443c-b65e-0b5ca886d1bb</sv:value>
+    </sv:property>
+    <sv:node sv:name="2015-8-7">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>171092fe-2ff6-4d70-b119-43802f598ff3</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Love you!</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/2015-8-7/2015-8-7[2]</sv:value>
+        <sv:value>generic/2015-8-7/2015-8-7[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-07T02:38:33.827+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T03:03:09.949+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e753879e-6ccc-48cc-88b3-e274a7e54895</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b6db07fa-c313-4974-9b3b-e094e2931ea5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hey baby! It&amp;apos;s 2:43 as I&amp;apos;m writing this... I know, I&amp;apos;ve made it once again very late, but this stuff is a little addictive actually. Recently I feel like I&amp;apos;ve been learning a lot, as far as this stuff goes. It probably started when I got involved in making releases and deploying projects together with Joris. I like it. It goes a bit outside of the &amp;quot;normal&amp;quot; programming and more towards configuration. Well, I&amp;apos;ll tell you all about that when you&amp;apos;re back. And by that, I of course mean I&amp;apos;ll bore you to death with all of that stuff ;-)&lt;/p&gt;
+
+&lt;p&gt;So what did I actually do tonight on the site.... First of all I changed the width of images on desktops. They have a max width that is no larger than the smallest one. It&amp;apos;s a bit of a dirty solution, but works for now. I didn&amp;apos;t want to spend too much time on that now, since I&amp;apos;ll be implementing a custom imageset soonish. &amp;nbsp;Next to that I put the text in the center, again, quick and dirty. Will also be fixed later.&amp;nbsp;I put in a title for in the browser bar, which is taken over from the documents that are created and it also has a little suffix: &amp;nbsp; | Studio Bellota. That last part can be edited as well somewhere of course. And if the document title is empty, it only has Studio Bellota in the bar. Well, I&amp;apos;ll show you all of these things when you&amp;apos;re back.&lt;/p&gt;
+
+&lt;p&gt;I did some refactoring as well of the code, made it all a bit nicer. Don&amp;apos;t want to create too much technical debt for myself already. Funny how I feel like I barely did anything now that I actually want to tell you about it... hehe. Oh well. I would like to have something reasonably nice when you&amp;apos;re back. That would be so cool :-) We&amp;apos;ll talk about that.&lt;/p&gt;
+
+&lt;p&gt;I miss you baby, really very much... Though I have (obviously) very effective ways of keeping myself busy, there is always one beautiful element missing at the moment. Yes, that would be you, my love. Thoughts of you still make my heart skip a beat. And I know that&amp;nbsp;will never change! I love you so much! I will do anything for you. As yo probably saw already, I added a picture of our little boat trip in Delft a while back :-) &amp;nbsp;Baby, I miss just hanging out with you... I miss staring at your pretty face... I miss your beautiful smile and laugh.... I miss that crazy hot body... I miss your eyes.... God this is no good for me, I&amp;apos;ll stop here and catch some sleep. Already past 3 because in the meantime I actually fixed some little bugs in the site too :)&lt;/p&gt;
+
+&lt;p&gt;Sine, I love you!!! Text me in the morning, ok? I would really love to hear from you!&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="2015-8-7">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6a89d27d-6ed6-471a-85f5-70e6513a43ec</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Love you!</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/2015-8-7/2015-8-7[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-07T02:38:33.827+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T03:05:22.602+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e753879e-6ccc-48cc-88b3-e274a7e54895</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b6db07fa-c313-4974-9b3b-e094e2931ea5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hey baby! It&amp;apos;s 2:43 as I&amp;apos;m writing this... I know, I&amp;apos;ve made it once again very late, but this stuff is a little addictive actually. Recently I feel like I&amp;apos;ve been learning a lot, as far as this stuff goes. It probably started when I got involved in making releases and deploying projects together with Joris. I like it. It goes a bit outside of the &amp;quot;normal&amp;quot; programming and more towards configuration. Well, I&amp;apos;ll tell you all about that when you&amp;apos;re back. And by that, I of course mean I&amp;apos;ll bore you to death with all of that stuff ;-)&lt;/p&gt;
+
+&lt;p&gt;So what did I actually do tonight on the site.... First of all I changed the width of images on desktops. They have a max width that is no larger than the smallest one. It&amp;apos;s a bit of a dirty solution, but works for now. I didn&amp;apos;t want to spend too much time on that now, since I&amp;apos;ll be implementing a custom imageset soonish. &amp;nbsp;Next to that I put the text in the center, again, quick and dirty. Will also be fixed later.&amp;nbsp;I put in a title for in the browser bar, which is taken over from the documents that are created and it also has a little suffix: &amp;nbsp; | Studio Bellota. That last part can be edited as well somewhere of course. And if the document title is empty, it only has Studio Bellota in the bar. Well, I&amp;apos;ll show you all of these things when you&amp;apos;re back.&lt;/p&gt;
+
+&lt;p&gt;I did some refactoring as well of the code, made it all a bit nicer. Don&amp;apos;t want to create too much technical debt for myself already. Funny how I feel like I barely did anything now that I actually want to tell you about it... hehe. Oh well. I would like to have something reasonably nice when you&amp;apos;re back. That would be so cool :-) We&amp;apos;ll talk about that.&lt;/p&gt;
+
+&lt;p&gt;I miss you baby, really very much... Though I have (obviously) very effective ways of keeping myself busy, there is always one beautiful element missing at the moment. Yes, that would be you, my love. Thoughts of you still make my heart skip a beat. And I know that&amp;nbsp;will never change! I love you so much! I will do anything for you. As yo probably saw already, I added a picture of our little boat trip in Delft a while back :-) &amp;nbsp;Baby, I miss just hanging out with you... I miss staring at your pretty face... I miss your beautiful smile and laugh.... I miss that crazy hot body... I miss your eyes.... God this is no good for me, I&amp;apos;ll stop here and catch some sleep. Already past 3 because in the meantime I actually fixed some little bugs in the site too :)&lt;/p&gt;
+
+&lt;p&gt;Sine, I love you!!! Text me in the morning, ok? I would really love to hear from you!&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="2015-8-7">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bellota:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>88cfb183-9a25-477d-a7f1-b3f243c1590e</sv:value>
+      </sv:property>
+      <sv:property sv:name="bellota:title" sv:type="String">
+        <sv:value>Love you!</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>generic/2015-8-7/2015-8-7[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-08-07T02:38:33.827+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-08-07T03:05:22.602+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-08-07T03:05:24.763+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e753879e-6ccc-48cc-88b3-e274a7e54895</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bellota:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>b6db07fa-c313-4974-9b3b-e094e2931ea5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="bellota:html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p&gt;Hey baby! It&amp;apos;s 2:43 as I&amp;apos;m writing this... I know, I&amp;apos;ve made it once again very late, but this stuff is a little addictive actually. Recently I feel like I&amp;apos;ve been learning a lot, as far as this stuff goes. It probably started when I got involved in making releases and deploying projects together with Joris. I like it. It goes a bit outside of the &amp;quot;normal&amp;quot; programming and more towards configuration. Well, I&amp;apos;ll tell you all about that when you&amp;apos;re back. And by that, I of course mean I&amp;apos;ll bore you to death with all of that stuff ;-)&lt;/p&gt;
+
+&lt;p&gt;So what did I actually do tonight on the site.... First of all I changed the width of images on desktops. They have a max width that is no larger than the smallest one. It&amp;apos;s a bit of a dirty solution, but works for now. I didn&amp;apos;t want to spend too much time on that now, since I&amp;apos;ll be implementing a custom imageset soonish. &amp;nbsp;Next to that I put the text in the center, again, quick and dirty. Will also be fixed later.&amp;nbsp;I put in a title for in the browser bar, which is taken over from the documents that are created and it also has a little suffix: &amp;nbsp; | Studio Bellota. That last part can be edited as well somewhere of course. And if the document title is empty, it only has Studio Bellota in the bar. Well, I&amp;apos;ll show you all of these things when you&amp;apos;re back.&lt;/p&gt;
+
+&lt;p&gt;I did some refactoring as well of the code, made it all a bit nicer. Don&amp;apos;t want to create too much technical debt for myself already. Funny how I feel like I barely did anything now that I actually want to tell you about it... hehe. Oh well. I would like to have something reasonably nice when you&amp;apos;re back. That would be so cool :-) We&amp;apos;ll talk about that.&lt;/p&gt;
+
+&lt;p&gt;I miss you baby, really very much... Though I have (obviously) very effective ways of keeping myself busy, there is always one beautiful element missing at the moment. Yes, that would be you, my love. Thoughts of you still make my heart skip a beat. And I know that&amp;nbsp;will never change! I love you so much! I will do anything for you. As yo probably saw already, I added a picture of our little boat trip in Delft a while back :-) &amp;nbsp;Baby, I miss just hanging out with you... I miss staring at your pretty face... I miss your beautiful smile and laugh.... I miss that crazy hot body... I miss your eyes.... God this is no good for me, I&amp;apos;ll stop here and catch some sleep. Already past 3 because in the meantime I actually fixed some little bugs in the site too :)&lt;/p&gt;
+
+&lt;p&gt;Sine, I love you!!! Text me in the morning, ok? I would really love to hear from you!&lt;/p&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
